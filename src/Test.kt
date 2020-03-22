@@ -1,4 +1,5 @@
 import KotlinSamples.Functions.*
+
 fun main(args: Array<String>) {
 //    var_declarations()
 //    ranges()
@@ -10,7 +11,15 @@ fun main(args: Array<String>) {
 //    flow_based_typing()
 //    for_loop()
 //    when_expression()
-say_hello()
+//say_hello()
+//    println("4 * 3 = ${triple(4)}")
+//    println("pay ${calculate_wages(hourly_rate = 120.0)}")
+//    val stuff = intArrayOf(1, 2, 3)
+//
+//    println("${sum_up(*stuff)}")
+//    val (x1, x2) = solve_quadratic_equations(1.0, 10.0, 16.0)
+//    println("x1 = $x1, x2 = $x2")
+    infix_functions()
 }
 
 fun when_expression() {
