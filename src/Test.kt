@@ -19,7 +19,8 @@ fun main(args: Array<String>) {
 //    println("${sum_up(*stuff)}")
 //    val (x1, x2) = solve_quadratic_equations(1.0, 10.0, 16.0)
 //    println("x1 = $x1, x2 = $x2")
-    infix_functions()
+//    infix_functions()
+    extension_functions()
 }
 
 fun when_expression() {
